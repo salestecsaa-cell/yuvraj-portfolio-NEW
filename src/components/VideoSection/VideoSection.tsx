@@ -35,7 +35,7 @@ const VideoSection = () => {
           <iframe
             width="100%"
             height="600"
-            src="https://www.youtube.com/embed/hb6hoPJdh6g"
+            src="https://www.youtube.com/embed/0O6f4kb6x4U"
             title="Saving you time and stress"
             frameBorder="0"
             allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share"
