@@ -3,25 +3,24 @@ import { useState } from "react";
 
 const About = () => {
   const [activeTooltip, setActiveTooltip] = useState<string | null>(null);
-
   const badges = [
     {
-      id: "top-rated",
-      title: "TOP RATED PLUS",
-      icon: "⭐",
-      tooltip: "Top Rated Plus is a talent badge on Upwork that represents the top 3% of performers worldwide and has demonstrated consistent high-quality work with multiple clients."
+      id: "experience",
+      title: "9+ YEARS OF EXPERIENCE",
+      icon: "📽️",
+      tooltip: "Proven track record across video editing, graphic design, and AI content creation with successful projects for businesses worldwide."
     },
     {
-      id: "job-success",
-      title: "100% JOB SUCCESS",
-      icon: "👑",
-      tooltip: "Job Success Score is a metric used to measure the overall satisfaction of your clients on Upwork. 100% being the highest."
+      id: "ai-video",
+      title: "AI VIDEO SPECIALIST",
+      icon: "🤖",
+      tooltip: "Expert in cutting-edge AI video generation tools including VEO 3.1, OmniFlash, and generative video creation to produce high-quality content at scale."
     },
     {
-      id: "adobe",
-      title: "ADOBE CERTIFIED EXPERT",
-      icon: "🏆",
-      tooltip: "Adobe Certified Expert status demonstrates professional expertise in Adobe Creative Cloud suite including Photoshop, Illustrator, Premiere Pro, and After Effects."
+      id: "direct-response",
+      title: "DIRECT RESPONSE ADS EXPERT",
+      icon: "🎯",
+      tooltip: "Specializes in creating conversion-focused ads and visuals designed to drive engagement, clicks, and measurable business results."
     }
   ];
 
@@ -30,12 +29,11 @@ const About = () => {
       <div className="about-me">
         <h3 className="title">About Me</h3>
         <p className="para">
-          Ranked among the top 3% of freelancers globally and a Top Rated Plus freelancer on Upwork, I specialize in creating scroll-stopping images and videos that not only look visually stunning but are designed to make an impact.
+          Specializing in AI-powered content creation and direct response marketing, I create scroll-stopping videos and visuals that not only look visually stunning but are designed to generate engagement, conversions, and real business results.
         </p>
         <p className="para">
-          With over 9 years of experience as an Adobe Certified Expert, I've helped more than 200 brands across 30 industries with high-converting designs.
+          With over <strong>9 years of experience</strong> in video editing, graphic design, and AI content creation, I've helped businesses across multiple industries produce high-performing AI ads, short-form videos, and creative assets that drive growth.
         </p>
-
         <div className="badges-section">
           {badges.map((badge) => (
             <div key={badge.id} className="badge-container">
