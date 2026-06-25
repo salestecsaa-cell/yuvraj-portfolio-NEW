@@ -54,7 +54,7 @@ const Contact = () => {
               WhatsApp <MdArrowOutward />
             </a>
             <a
-              href="mailto:yatharth114@gmail.com"
+              href="mailto:portfolio.yuvraj@gmail.com"
               target="_blank"
               rel="noreferrer"
               data-cursor="disable"
