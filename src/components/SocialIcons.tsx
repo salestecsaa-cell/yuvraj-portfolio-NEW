@@ -76,7 +76,7 @@ const SocialIcons = () => {
           </a>
         </span>
         <span>
-          <a href="mailto:yatharth114@gmail.com" rel="noreferrer" title="Email">
+          <a href="mailto:portfolio.yuvraj@gmail.com" rel="noreferrer" title="Email">
             <FaEnvelope />
           </a>
         </span>
